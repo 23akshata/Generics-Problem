@@ -175,7 +175,12 @@ namespace GenericsProgram
 
                     }
                     break;
-            }
+
+                    case 4:
+                        FindIntMax integerfindmax = new FindIntMax();
+                        integerfindmax.FindMaxValue(13, 20, 23);
+                        break;
+                }
             
 
         }
